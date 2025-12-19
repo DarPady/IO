@@ -22,12 +22,12 @@ The end product is an interactive web application in the form of a dashboard, di
 ---
 
 ## License
-This project is licensed under the Freeware License. It may not be sold or modified in any way, such as by adding your own advertisement inside. It can only be distributed in its original, unchanged form.
+This project is released under the Freeware License. It may not be sold or altered in any form, including the addition of advertisements. Distribution is permitted only in its original, unmodified version.
 
 ---
 
 ## Authors
-For questions or suggestions, feel free to reach out:
+If you have any questions or suggestions, you can contact us:
 - **GitHub Profile**: [DarPady](https://github.com/DarPady)
                       [rutkowskaj](https://github.com/rutkowskaj)
                       [KatarzynaZaniewska](https://github.com/KatarzynaZaniewska)
