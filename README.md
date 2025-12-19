@@ -22,7 +22,7 @@ The end product is an interactive web application in the form of a dashboard, di
 ---
 
 ## License
-**Opportunity Cost Monitor** is an educational project developed as part of the Software Engineering course at the University of Gdańsk.
+**Opportunity Cost Monitor (OCM)** is an educational project developed as part of the Software Engineering course at the University of Gdańsk.
 
 The software is available free of charge and may be downloaded, used, and modified for **educational and personal purposes only.** Any commercial use is strictly prohibited, including selling the software, earning profit from its distribution, or including it in paid software packages. The application may be distributed only in its free, non-commercial form.
 
