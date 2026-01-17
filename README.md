@@ -22,6 +22,7 @@ The end product is an interactive web application in the form of a dashboard, di
 
 ## Features
 The application offers the following key functionalities:
+
 -**Habit Tracking** – Definition and monitoring of recurring consumption habits with daily usage logging.
 -**Automatic Expense Calculation** – Real-time calculation of daily and cumulative costs based on historical prices.
 -**Market Data Integration** – Periodic retrieval of stock market index data for analytical purposes.
