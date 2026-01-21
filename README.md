@@ -90,7 +90,7 @@ Jeśli masz jakieś pytania lub sugestie, skontaktuj się z nami:
 |---|-------|------|-----------|
 |F-15|Rejestracja i logowanie| Po utworzeniu konta system zapisuje wprowadzone przez użytkownika dane i przypisuje je do jego profilu.|1|
 
-###Wymagania niefunkcjonalne
+### Wymagania niefunkcjonalne
 
 |ID | NAZWA | OPIS | PRIORYTET | 
 |---|-------|------|-----------|
