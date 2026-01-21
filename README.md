@@ -8,7 +8,7 @@
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-- [Prawa  autorskie](#prawa-autorskie)
+- [Licencja](#licencja)
 - [Authorzy](#authorzy)
 
 ---
@@ -113,7 +113,7 @@ Produktem końcowym jest interaktywna aplikacja webowa w formie pulpitu (dashboa
 
 ## Licencja
 
-Projekt udostępniamy na licencji MIT.
+Projekt udostępniamy na licencji **MIT**.
 
 Licencja MIT jest jedną z najprostszych i najbardziej liberalnych licencji otwartego oprogramowania. Oznacza to, że dozwolone jest:
 * korzystanie z projektu prywatnie i komercyjnie,
