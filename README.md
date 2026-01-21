@@ -2,7 +2,7 @@
 
  ## Table of Contents
 - [Charakterystyka oprogramowania](#charakterystyk-oprogramowania)
-- [Features](#features)
+- [Specyfikacja wymagań](#specyfikacja-wymagań)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -21,20 +21,8 @@ Produktem końcowym jest interaktywna aplikacja webowa w formie pulpitu (dashboa
 
 ---
 
-## Features
-The application offers the following key functionalities:
+## Specyfikacja wymagań
 
-- **Habit Tracking** – Definition and monitoring of recurring consumption habits with daily usage logging.
-
-- **Currency & Commodity Data Integration** – Regular collection of exchange rates and market price data used as reference values for analytical calculations.
-
-- **Opportunity Cost Simulation** – Estimation of the current value of spent money if it had been allocated to selected market instruments instead of being spent.
-
-- **Opportunity Cost Simulation** – Simulation of hypothetical investments showing the current value of spent money.
-
-- **Interactive Dashboard** – Clear visualizations presenting expenses and investment outcomes.
-
-- **User Accounts & Persistence** – Secure authentication and persistent data storage using SQLite.
   
 ---
 
