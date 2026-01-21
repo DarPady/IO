@@ -1,7 +1,7 @@
 # Monitor Kosztu Alternatywnego - MKA
 
  ## Table of Contents
-- [Charakterystyka oprogramowania](#charakterystyk- oprogramowania)
+- [Charakterystyka oprogramowania](#charakterystyk-oprogramowania)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
