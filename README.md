@@ -7,8 +7,8 @@
 - [Specyfikacja wymagań](#specyfikacja-wymagań)
 - [Architektura systemu/oprogramowania](#architektura-systemu/oprogramowania)
 - [Instalacja](#instalacja)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Testy](#testy)
+
 
 
 ---
@@ -120,7 +120,7 @@ Jeśli masz jakieś pytania lub sugestie, skontaktuj się z nami:
 
 ### Wymagania wstępne
 
-### procedura instalacji
+### Procedura instalacji
 
 ---
 
