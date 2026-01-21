@@ -23,6 +23,7 @@ Produktem końcowym jest interaktywna aplikacja webowa w formie pulpitu (dashboa
 
 ### Authorzy
 Jeśli masz jakieś pytania lub sugestie, skontaktuj się z nami:
+
 **Profil  GitHub**:
 * Daria Padytel - [DarPady](https://github.com/DarPady)
 * Julia Rutkowska - [rutkowskaj](https://github.com/rutkowskaj)
