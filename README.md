@@ -75,7 +75,7 @@ Jeśli masz jakieś pytania lub sugestie, skontaktuj się z nami:
 |F-07|Połączenie z Bankier.pl| System musi cyklicznie łączyć się ze stroną Bankier.pl, imitując przeglądarkę, aby uniknąć blokady i pobrać pełny kod źródłowy HTML.|1|
 |F-08|Ekstrakcja notowań indeksu| System musi wyszukać w pobranym kodzie HTML aktualną wartość wybranego notowania giełdowego, wraz ze zmianą procentową i pobrać te wartości wraz z timestampem. |1|
 |F-09|Czyszczenie i konwersja danych| System musi oczyścić pobrane z HTML dane (usunięcie spacji, zamiana przecinków na kropki) i przekonwertować je na format liczbowy. |1|
-|F-10|Cykliczna aktualizacja| Proces scrapingu musi być uruchamiany automatycznie przy użyciu harmonogramu zadań.|2|
+|F-10|Cykliczna aktualizacja| Proces scrapingu musi być uruchamiany automatycznie o godz. 12.00 lub po interakcji dowolnego użytkownika.|1|
 
 **MODUŁ 4: ANALIZA DANYCH**
 | ID | NAZWA | OPIS | PRIORYTET | 
