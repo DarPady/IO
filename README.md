@@ -55,7 +55,7 @@ Jeśli masz jakieś pytania lub sugestie, skontaktuj się z nami:
 
 ### Wymagania funkcjonalne
 
-** MODUŁ 1: KONFIGURACJA NAWYKÓW (UŻYTKOWNIK)**
+**MODUŁ 1: KONFIGURACJA NAWYKÓW (UŻYTKOWNIK)**
 |ID | NAZWA | OPIS | PRIORYTET | 
 |---|-------|------|-----------|
 |F-01|Definicja śledzonego produktu| Użytkownik musi mieć możliwość zdefiniowania nowego produktu/nawyku poprzez podanie: nazwy (np. "Papierosy"), jednostki miary (np. "paczka") oraz ceny jednostkowej.|1|
