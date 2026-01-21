@@ -1,4 +1,4 @@
-# OCM - Opportunity Cost Monitor
+# Monitor Kosztu Alternatywnego - MKA
 
  ## Table of Contents
 - [About the Project](#about-the-project)
