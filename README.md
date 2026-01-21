@@ -55,7 +55,7 @@ Jeśli masz jakieś pytania lub sugestie, skontaktuj się z nami:
 
 ### Wymagania funkcjonalne
 
-**MODUŁ 1: KONFIGURACJA NAWYKÓW (UŻYTKOWNIK)**
+**MODUŁ 1: KONFIGURACJA NAWYKÓW**
 |ID | NAZWA | OPIS | PRIORYTET | 
 |---|-------|------|-----------|
 |F-01|Definicja śledzonego produktu| Użytkownik musi mieć możliwość zdefiniowania nowego produktu/nawyku poprzez podanie: nazwy (np. "Papierosy"), jednostki miary (np. "paczka") oraz ceny jednostkowej.|1|
@@ -69,7 +69,7 @@ Jeśli masz jakieś pytania lub sugestie, skontaktuj się z nami:
 |F-05|Rejestracja zużycia| System musi umożliwiać użytkownikowi codzienne wprowadzenie ilości zużytego produktu (np. 1.5 sztuki) dla wybranej daty.|1|
 |F-06|Automatyczne obliczanie kosztu| Natychmiast po wprowadzeniu ilości, system musi obliczyć dzienny koszt (ilość × aktualna cena) i zapisać go w bazie danych.|1|
 
-**MODUŁ 3: POZYSKANIE DANYCH RYNKOWYCH (WEB SCRAPING)**
+**MODUŁ 3: POZYSKANIE DANYCH RYNKOWYCH**
 |ID | NAZWA | OPIS | PRIORYTET | 
 |---|-------|------|-----------|
 |F-07|Połączenie z Bankier.pl| System musi cyklicznie łączyć się ze stroną Bankier.pl, imitując przeglądarkę, aby uniknąć blokady i pobrać pełny kod źródłowy HTML.|1|
@@ -77,37 +77,25 @@ Jeśli masz jakieś pytania lub sugestie, skontaktuj się z nami:
 |F-09|Czyszczenie i konwersja danych| System musi oczyścić pobrane z HTML dane (usunięcie spacji, zamiana przecinków na kropki) i przekonwertować je na format liczbowy. |1|
 |F-10|Cykliczna aktualizacja| Proces scrapingu musi być uruchamiany automatycznie przy użyciu harmonogramu zadań.|2|
 
-**MODUŁ 4: SILNIK ANALITYCZNY I SYMULATOR**
+**MODUŁ 4: ANALIZA DANYCH**
 |ID | NAZWA | OPIS | PRIORYTET | 
 |---|-------|------|-----------|
-|F-11|Obliczanie sumy wydatków| System musi agregować dane o wydatkach w zadanym okresie (dzień, tydzień, miesiąc, od początku).|1|
-|F-12|Analiza trendu konsumpcji| System musi obliczać średnie tempo zmian (np. średnia ruchoma z ostatnich 7 dni), aby wskazać, czy użytkownik ogranicza, czy zwiększa konsumpcję.|2|
-|F-13|Symulacja Inwestycyjna| System sprawdza, ile dziś byłyby warte wydane pieniądze, gdyby zostały zainwestowane w wybrany fundusz. Każdego dnia zamienia wydaną kwotę na jednostki funduszu po kursie z danego dnia, a następnie liczy, ile te jednostki są warte obecnie.|1|
+|F-11|Obliczanie sumy wydatków| System musi agregować dane o wydatkach w danym dniu i łączną ich sumę.|1|
+|F-12|Symulacja inwestycyjna| System sprawdza, ile dziś byłyby warte wydane pieniądze, gdyby były na bieżąco inwestowane w wybrane walory.|1|
+|F-13|Konfiguracja portfela| System umożliwia ustalenie wag dla każdego z sześciu walorów, jednocześnie sprawdzając czy suma wynosi 100%.|2|
+|F-14|Wykres inwestycyjny| Wyświetlana jest zmiana wartości portfela w czasie.|3|
 
-**MODUŁ 5: KONFIGURACJA NAWYKÓW (UŻYTKOWNIK)**
+**MODUŁ 6: PROFIL UŻYTKOWNIKA**
 |ID | NAZWA | OPIS | PRIORYTET | 
 |---|-------|------|-----------|
-|F-01|Definicja śledzonego produktu| Użytkownik musi mieć możliwość zdefiniowania nowego produktu/nawyku poprzez podanie: nazwy (np. "Papierosy"), jednostki miary (np. "paczka") oraz ceny jednostkowej.|1|
-|F-02|Edycja ceny produktu| Użytkownik musi mieć możliwość aktualizacji ceny produktu. System musi zachować historię cen, aby stare wpisy były przeliczane po starej cenie, a nowe po nowej.|1|
-|F-03|Zarządzanie listą produktów| Użytkownik może dodawać wiele niezależnych produktów (np. "Kawa", "Papierosy") i śledzić je równolegle.|2|
-|F-04|Edycja parametrów historycznych| Możliwość wpisania, jak długo użytkownik już posiada dany nawyk, aby obliczyć stratę "wsteczną".|3|
+|F-15|Rejestracja i logowanie| Po założeniu konta dane wprowadzane przez użytkownika są zapisywane.|1|
 
-** MODUŁ 6: ZARZĄDZANIE UŻYTKOWNIKIEM**
+**Wymagania niefunkcjonalne**
 |ID | NAZWA | OPIS | PRIORYTET | 
 |---|-------|------|-----------|
-|F-01|Definicja śledzonego produktu| Użytkownik musi mieć możliwość zdefiniowania nowego produktu/nawyku poprzez podanie: nazwy (np. "Papierosy"), jednostki miary (np. "paczka") oraz ceny jednostkowej.|1|
-|F-02|Edycja ceny produktu| Użytkownik musi mieć możliwość aktualizacji ceny produktu. System musi zachować historię cen, aby stare wpisy były przeliczane po starej cenie, a nowe po nowej.|1|
-|F-03|Zarządzanie listą produktów| Użytkownik może dodawać wiele niezależnych produktów (np. "Kawa", "Papierosy") i śledzić je równolegle.|2|
-|F-04|Edycja parametrów historycznych| Możliwość wpisania, jak długo użytkownik już posiada dany nawyk, aby obliczyć stratę "wsteczną".|3|
-
-** Wymagania niefunkcjonalne **
-
-|ID | NAZWA | OPIS | PRIORYTET | 
-|---|-------|------|-----------|
-|F-01|Definicja śledzonego produktu| Użytkownik musi mieć możliwość zdefiniowania nowego produktu/nawyku poprzez podanie: nazwy (np. "Papierosy"), jednostki miary (np. "paczka") oraz ceny jednostkowej.|1|
-|F-02|Edycja ceny produktu| Użytkownik musi mieć możliwość aktualizacji ceny produktu. System musi zachować historię cen, aby stare wpisy były przeliczane po starej cenie, a nowe po nowej.|1|
-|F-03|Zarządzanie listą produktów| Użytkownik może dodawać wiele niezależnych produktów (np. "Kawa", "Papierosy") i śledzić je równolegle.|2|
-|F-04|Edycja parametrów historycznych| Możliwość wpisania, jak długo użytkownik już posiada dany nawyk, aby obliczyć stratę "wsteczną".|3|
+|NF-01|Dostęp do aplikacji| System musi być dostępny przez przeglądarkę internetową (aplikacja webowa) i nie wymagać instalacji.|1|
+|NF-02|Interfejs użytkownika| System nie wymaga obsługi przez wiersz poleceń; wszystkie funkcje dostępne dla użytkownika są dostępne przez GUI.|1|
+|NF-03|Dane historyczne| Dane użytkowników i historia notowań muszą być przechowywane w bazie danych.|1|
 
 (Priorytet: 1 - wymagane, 2 - przydatne, 3 - opcjonalne)
 
