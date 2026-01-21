@@ -124,6 +124,6 @@ W projekcie przeprowadzono **testy akceptacyjne (manualne)**, które obejmowały
 - agregację wydatków oraz symulację inwestycyjną,
 - wymagania niefunkcjonalne: dostęp przez przeglądarkę, obsługa przez GUI oraz trwałe przechowywanie danych w bazie.
 
-Szczegółowe scenariusze i raport z testów: [testy_akceptacyjne](testy_akceptacyjne.pdf)
+Szczegółowe scenariusze i raport z testów: [Testy_akceptacyjne](Testy_akceptacyjne.pdf)
 
 ---
