@@ -112,7 +112,7 @@ Architektura rozwoju
 |GitHub|Hosting repozytorium|-|
 |Git|Kontrola wersji|2.52|
 |Biblioteka "beautifulsoup4"|Parsowanie dokumentów HTML/XML|4.14.3|
-|Biblioteka "Flask"|Tworzy aplikacje internetową i obsługuje żądań HTTP.|3.1.2|
+|Biblioteka "Flask"|Tworzy aplikacje internetową i obsługuje żądania HTTP|3.1.2|
 |Biblioteka "Flask-Login"|Obsługa logowania|0.6.3|
 |Biblioteka "Flask-SQLAlchemy"|Obsługa bazy danych|3.1.1|
 |Biblioteka "requests"|Zapytania HTTP|2.32.5|
