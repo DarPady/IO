@@ -20,6 +20,7 @@ q10 = lambda x: D(x).quantize(Decimal("0.0000000001"), rounding=ROUND_HALF_UP)
 INSTR = ["USD/PLN", "EUR/PLN", "CHF/PLN", "ZŁOTO", "MIEDŹ", "ROPA"]
 HOME_LABEL = {"ZŁOTO": "ZŁOTO (uncja)", "MIEDŹ": "MIEDŹ (tona)", "ROPA": "ROPA (baryłka)"}
 DAILY_QUOTE_HHMM = "12:00"
+INVEST_TIME = "17:15"
 
 
 def parse_pl(s: str) -> Decimal:
@@ -164,8 +165,10 @@ def pending_days(user_id: int) -> list[date]:
 
 
 def invest_for_day(user_id: int, savings_day: date, enforce_time: bool) -> tuple[bool, str]:
-    if enforce_time and datetime.now().hour < 16:
-        return False, "Jeszcze nie pora."
+    if enforce_time:
+        invest_time = datetime.strptime(INVEST_TIME, "%H:%M").time()
+        if datetime.now().time() < invest_time:
+            return False, "Jeszcze nie pora."
     if Batch.query.filter_by(user_id=user_id, savings_day=savings_day).first():
         return False, "Już zainwestowano ten dzień."
 
@@ -514,7 +517,7 @@ def dashboard():
     dt = _d(request.args.get("date_to") or "")
     start, end = _range_dates(df, dt, 30)
 
-    invest_for_day(current_user.id, date.today() - timedelta(days=1), enforce_time=True)
+    invest_for_day(current_user.id, date.today(), enforce_time=True)
     refresh_daily_quotes(current_user.id)
 
     pts = portfolio_points(current_user.id, start, end)
@@ -560,3 +563,4 @@ def profile_save():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
