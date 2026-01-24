@@ -104,8 +104,6 @@ Jeśli masz jakieś pytania lub sugestie, skontaktuj się z nami:
 
 ## Architektura systemu/oprogramowania
 
-Architektura rozwoju
-
 | Technologia | Przeznaczenie | Nr wersji |
 |----|-------|------|
 |Python|Język programowania|3.13.11|
