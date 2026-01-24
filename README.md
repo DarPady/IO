@@ -120,9 +120,37 @@ Architektura rozwoju
 ## Instalacja
 
 ### Wymagania wstępne
-
+1. Python 3.x (rekomendowane 3.11)
+2. Narzędzie do tworzenia środowisk wirtualnych (np. venv lub virtualenv)
+3. Dostęp do internetu (pobieranie notowań z Bankier.pl)
+4. 
 ### Procedura instalacji
+1. Sklonuj repozytorium:
+   ```bash
+   git clone https://github.com/DarPady/Monitor-Kosztu-Alternatywnego.git
+   cd Monitor-Kosztu-Alternatywnego/Projekt
+   ```
 
+2. Utwórz i aktywuj środowisko wirtualne:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Zainstaluj wymagane zależności Pythona:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Uruchom serwer deweloperski:
+   ```bash
+   python app.py
+   ```
+
+5. Otwórz aplikację w przeglądarce:
+   ```
+   http://127.0.0.1:5000
+   ```
 ---
 
 ## Testy
