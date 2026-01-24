@@ -107,7 +107,7 @@ Jeśli masz jakieś pytania lub sugestie, skontaktuj się z nami:
 | Technologia | Przeznaczenie | Nr wersji |
 |----|-------|------|
 |Python|Język programowania|3.13.11|
-|PyCharm|Środowisko developerskie|2023.3.4|
+|PyCharm|Środowisko deweloperskie|2023.3.4|
 |GitHub|Hosting repozytorium|-|
 |Git|Kontrola wersji|2.52|
 |Biblioteka "beautifulsoup4"|Parsowanie dokumentów HTML/XML|4.14.3|
