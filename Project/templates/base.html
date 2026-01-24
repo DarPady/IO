@@ -1,4 +1,4 @@
-<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MKA Simple</title>
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MKA</title>
 <style>
 :root{--bg:#1f2937;--top:#111827;--s:#374151;--b:#6b7280;--soft:rgba(209,213,219,.35);--t:#f9fafb;--m:#d1d5db;--btn:#4b5563;--btnh:#6b7280;--r:14px}
 *{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:var(--bg);color:var(--t)}
@@ -31,3 +31,4 @@ tbody tr:nth-child(even){background:#3f4a5a}tbody tr:hover{background:#4b5563}
 {% with msgs=get_flashed_messages() %}{% if msgs %}{% for m in msgs %}<div class="flash">{{ m }}</div>{% endfor %}{% endif %}{% endwith %}
 {% block content %}{% endblock %}
 </div></body></html>
+
