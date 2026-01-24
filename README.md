@@ -129,7 +129,7 @@ Architektura rozwoju
 1. Sklonuj repozytorium:
    ```bash
    git clone https://github.com/DarPady/Monitor-Kosztu-Alternatywnego.git
-   cd Monitor-Kosztu-Alternatywnego/Projekt
+   cd Monitor-Kosztu-Alternatywnego/Project
    ```
 
 2. Utwórz i aktywuj środowisko wirtualne:
